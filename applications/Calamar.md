@@ -6,11 +6,15 @@
 
 ## Project Overview :page_facing_up:
 
-The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks blockchain studio has gathered feedback from friendly projects such HydraDx and KodaDot among others. We have applied for the bounty from Subsquid to develop the first UI based on the Subsquid API. We call it the Calamar, as it is line with the Subsquid identity.
+The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks blockchain studio has gathered feedback from friendly projects such HydraDx and KodaDot among others.
+We have applied for the bounty from Subsquid of the Polkadot hackaton North America edition, that required developing block explorer ([https://devpost.com/software/calamar](https://devpost.com/software/calamar)).
+We call it the Calamar, as it is line with the Subsquid identity.
 It is available here:
-https://calamar.app
+[https://calamar.app](https://calamar.app)
 and we manage the code here:
-https://github.com/topmonks/calamar
+[https://github.com/topmonks/calamar](https://github.com/topmonks/calamar)
+
+Based on the positive feedback we would like to push the project further and bring more valuable features for the users, closely cooperating with the Subsquid team and gathering on going feedback from the users.
 
 ### Overview
 

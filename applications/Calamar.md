@@ -6,21 +6,25 @@
 
 ## Project Overview :page_facing_up:
 
-<span style="background-color: yellow">TODO</span>
+The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks blockchain studio has gathered feedback from friendly projects such HydraDx and KodaDot among others.
+We have applied for the bounty from Subsquid of the Polkadot hackaton North America edition, that required developing block explorer ([https://devpost.com/software/calamar](https://devpost.com/software/calamar)).
+We call it the Calamar, as it is line with the Subsquid identity.
+It is available here:
+[https://calamar.app](https://calamar.app)
+and we manage the code here:
+[https://github.com/topmonks/calamar](https://github.com/topmonks/calamar)
 
-<div style="background-color: #F5F5DC; padding: 16px; margin-bottom: 8px">
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
+Based on the positive feedback we would like to push the project further and bring more valuable features for the users, closely cooperating with the Subsquid team and gathering on going feedback from the users.
 
 ### Overview
 
-Please provide the following:
+Calamar is block explorer for Polkadot a Kusama relay chains and there parachains, that uses Subsquid API for fetching data.
+For now, it allows users to search:
+- for blocks by hash and height,
+- for extrinsics by hash, name or signer address
+- and for events by name.
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+When developing Calamar, we focus on UI and UX friendliness so that users enjoy dotsama chains exploring, as well as relevance of data displaying.
 
 ### Project Details
 
@@ -49,7 +53,6 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   - If so, how is your project different?
   - If not, are there similar projects in related ecosystems?
-</div>
 
 ## Team :busts_in_silhouette:
 

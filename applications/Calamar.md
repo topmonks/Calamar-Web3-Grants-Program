@@ -216,7 +216,7 @@ Even though we have the already working application there are still many things 
 - **FTE:** <span style="background-color: yellow">TODO</span>
 - **Costs:** 11,000 USD
 
-As we were gathering feedback, one of the most important features seems to be the overview for accounts where user can find information about their balances accross all parachains. Another important feature is to create good UI for displaying XCM teleports where you can easily see all involved sides (parachains, accounts) and other useful information.
+As we are gathering feedback, one of the most important features for the users seems to be the account overview where users can find information about their balances and transaction accross all parachains. Another important feature is to create good UI for displaying information about XCM teleports where you can easily see all involved sides (parachains, accounts) and other useful data.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -236,11 +236,11 @@ As we were gathering feedback, one of the most important features seems to be th
 - **Costs:** 8,000 USD
 
 
-We find two things which can highly improve the usefulness of the explorer.
+There are two things which can highly improve the usefulness of the explorer.
 
-Fist is the universal search where you don't have to know which parachain the searched item belong to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is. This is going to be an addition to the current implementation where you can restrict to a specific parachain.
+The fist is the universal search where you don't have to know which parachain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is. This is going to be an addition to the current implementation where you can restrict search to a specific parachain.
 
-The next thing are stats and charts ... <span style="background-color: yellow">TODO</span>
+The next thing are dashboard for parachains with various statistics, it makes the explorer more useful even for users who are not searching specific items.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |

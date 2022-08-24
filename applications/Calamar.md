@@ -6,6 +6,8 @@
 
 ## Project Overview :page_facing_up:
 
+<span style="background-color: yellow">TODO</span>
+
 The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks blockchain studio has gathered feedback from friendly projects such HydraDx and KodaDot among others.
 We have applied for the bounty from Subsquid of the Polkadot hackaton North America edition, that required developing block explorer ([https://devpost.com/software/calamar](https://devpost.com/software/calamar)).
 We call it the Calamar, as it is line with the Subsquid identity.
@@ -25,6 +27,20 @@ For now, it allows users to search:
 - and for events by name.
 
 When developing Calamar, we focus on UI and UX friendliness so that users enjoy dotsama chains exploring, as well as relevance of data displaying.
+
+<div style="background-color: #F5F5DC; padding: 16px; margin-bottom: 8px">
+If this application is in response to an RFP, please indicate this on the first line of this section.
+
+If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
+
+### Overview
+
+Please provide the following:
+
+- If the name of your project is not descriptive, a tag line (one sentence summary).
+- A brief description of your project.
+- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
+- An indication of why your team is interested in creating this project.
 
 ### Project Details
 
@@ -53,6 +69,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   - If so, how is your project different?
   - If not, are there similar projects in related ecosystems?
+</div>
 
 ## Team :busts_in_silhouette:
 
@@ -75,29 +92,58 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team's experience
 
-<div style="background-color: #F5F5DC; padding: 16px; margin-bottom: 8px">
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
-
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
-</div>
+<span style="background-color: yellow">TODO</span>
 
 ### Team Code Repos
 
 - https://github.com/topmonks/calamar
 
-<div style="background-color: #F5F5DC; padding: 16px; margin-bottom: 8px">
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-</div>
-
-- https://github.com/uiii
-
 <span style="background-color: yellow">TODO</span>
 
 ### Team LinkedIn Profiles
 
-- https://www.linkedin.com/in/richardjedlicka/
-
 <span style="background-color: yellow">TODO</span>
+
+<div style="background-color: #F5F5DC; padding: 16px; margin-bottom: 8px">
+
+### Team members
+
+- Name of team leader
+- Names of team members
+
+### Contact
+
+- **Contact Name:** Full name of the contact person in your team
+- **Contact Email:** Contact email (e.g. john@duo.com)
+- **Website:**
+
+### Legal Structure
+
+- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
+- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+
+### Team's experience
+
+Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+
+If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+
+### Team Code Repos
+
+- https://github.com/<your_organisation>
+- https://github.com/<your_organisation>/<project_1>
+- https://github.com/<your_organisation>/<project_2>
+
+Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+
+- https://github.com/<team_member_1>
+- https://github.com/<team_member_2>
+
+### Team LinkedIn Profiles (if available)
+
+- https://www.linkedin.com/<person_1>
+- https://www.linkedin.com/<person_2>
+</div>
 
 ## Development Status :open_book:
 

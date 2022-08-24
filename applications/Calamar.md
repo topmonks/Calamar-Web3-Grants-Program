@@ -8,25 +8,27 @@
 
 <span style="background-color: yellow">TODO</span>
 
-The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks blockchain studio has gathered feedback from friendly projects such HydraDx and KodaDot among others.
+The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks blockchain studio has gathered feedback from friendly projects such as HydraDx and KodaDot among others.
 We have applied for the bounty from Subsquid of the Polkadot hackaton North America edition, that required developing block explorer ([https://devpost.com/software/calamar](https://devpost.com/software/calamar)).
-We call it the Calamar, as it is line with the Subsquid identity.
+We call it the Calamar, as it is in line with the Subsquid identity.
+
 It is available here:
-[https://calamar.app](https://calamar.app)
+[https://calamar.app](https://calamar.app)<br />
 and we manage the code here:
 [https://github.com/topmonks/calamar](https://github.com/topmonks/calamar)
 
-Based on the positive feedback we would like to push the project further and bring more valuable features for the users, closely cooperating with the Subsquid team and gathering on going feedback from the users.
+Based on the positive feedback we would like to push the project further and bring more valuable features for the users, closely cooperating with the [Subsquid](https://subsquid.io) team and gathering an on-going feedback from the users.
 
 ### Overview
 
-Calamar is block explorer for Polkadot a Kusama relay chains and there parachains, that uses Subsquid API for fetching data.
+Calamar is a block explorer for Polkadot and Kusama relay chains and their parachains, that uses Subsquid API for data fetching.
+
 For now, it allows users to search:
 - for blocks by hash and height,
 - for extrinsics by hash, name or signer address
 - and for events by name.
 
-When developing Calamar, we focus on UI and UX friendliness so that users enjoy dotsama chains exploring, as well as relevance of data displaying.
+While developing Calamar, we focus on UI and UX friendliness so that users enjoy dotsama chains exploring, as well as relevance of displayed data.
 
 > If this application is in response to an RFP, please indicate this on the first line of this section.
 >

@@ -13,7 +13,7 @@ We have applied for the bounty from Subsquid of the Polkadot hackaton North Amer
 We call it the Calamar, as it is in line with the Subsquid identity.
 
 It is available here:
-[https://calamar.app](https://calamar.app)<br />
+[https://calamar.app](https://calamar.app) \
 and we manage the code here:
 [https://github.com/topmonks/calamar](https://github.com/topmonks/calamar)
 

@@ -57,16 +57,12 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- Richard Jedlička
-- Antonina Nesmelova
-- Radek Jakl
-- Jan Lopusek
-- Daniel Vaculík
+<span style="background-color: yellow">TODO</span>
 
 ### Contact
 
-- **Contact Name:** Jan Lopusek
-- **Contact Email:** jan.lopusek@topmonks.com
+- **Contact Name:** <span style="background-color: yellow">TODO</span>
+- **Contact Email:** <span style="background-color: yellow">TODO</span>
 - **Website:** https://topmonks.com
 
 ### Legal Structure
@@ -117,6 +113,74 @@ If you've already started implementing your project or it is part of a larger re
 ## Development Roadmap :nut_and_bolt:
 
 <span style="background-color: yellow">TODO</span>
+
+### Overview
+
+- **Total Estimated Duration:** 3 month
+- **Full-Time Equivalent (FTE):** <span style="background-color: yellow">TODO</span>
+- **Total Costs:** 30,000 USD
+
+### Milestone 1 — Core functionality
+
+- **Estimated duration:** 1 month
+- **FTE:** <span style="background-color: yellow">TODO</span>
+- **Costs:** 11,000 USD
+
+<span style="background-color: yellow">TODO description</span>
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | <span style="background-color: yellow">TODO</span> Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide inline documentation of the code where necessary, technical description how to run the own instance of Calamar and tutorials how to use the application from the user perspective. |
+| 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
+| 0d. | Docker | We will provide a Dockerfile(s) for testing and running own Calamar instance. |
+| 0e. | Article | We will publish an article that explains what was done as part of the grant |
+| 1. | Shareable links | Current implementation of the Calamar Explorer does not allow users to share links with the search result due to urls are not linked to a specific chain. We would like add the chain information in the url which would allow us to keep the source of information. |
+| 2. | Add missing data | Find out and add data which are missing and can be displayed for individual items (extrinsics args, ...) |
+| 3. | Website info | Add useful information to the website such as footer with team logos, contact information, etc. |
+| 4. | Responsivness | Improve overall responsivness for mobile devices especially of item tables and extrinsics/event args |
+| 5. | Polkadot.js integration | Integrate links to the Calamar Explorer into Polkadot.js app |
+| 6. | Extrinsics/event args display improvements | Improve the way how extrinsic/event args are displayed <ul><li>property data types</li><li>multiple views (raw/json, human readable)</li></ul> |
+| 7. | Items count | Current implementation doens't show the total number of searched items. We would like to retrieve the items count and display it properly |
+| 8. | Extrinsic/event fulltext search by name | Add ability to search extrinsics and events by their name in fulltext manner |
+| 9. | PR, user support | Setup channels (telegram, twitter, blog) for communication with users for annoucments, support etc. |
+
+### Milestone 2 - Account detail & XCM teleports
+
+- **Estimated duration:** 1 month
+- **FTE:** <span style="background-color: yellow">TODO</span>
+- **Costs:** 11,000 USD
+
+<span style="background-color: yellow">TODO description</span>
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | <span style="background-color: yellow">TODO</span> Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide inline documentation of the code where necessary  and tutorials how to use new features. |
+| 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
+| 0d. | Docker | *N/A - will be provided by the first milestone.* |
+| 0e. | Article | We will publish an article that explains what was done as part of the grant |
+| 1. | Account detail | Improve account detail page with cross-parachain information <ul><li>overview of owned assets (accross all parachains)</li><li>total balance chart</li><li>list of corresponding addresses in other parachains</li> |
+| 2. | Account address parsing in events args | Detect account address in event args and link it to the account detail (parachain detected automatically) |
+| 3. | XCM transfers and teleports | Detect cross-chain messages and display relevant information of involved parachains and accounts |
+
+### Milestone 3 - Universal search & Parachain dashboards
+
+- **Estimated duration:** 1 month
+- **FTE:** <span style="background-color: yellow">TODO</span>
+- **Costs:** 8,000 USD
+
+<span style="background-color: yellow">TODO description</span>
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | <span style="background-color: yellow">TODO</span> Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide inline documentation of the code where necessary  and tutorials how to use new features. |
+| 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
+| 0d. | Docker | *N/A - will be provided by the first milestone.* |
+| 0e. | Article | We will publish an article that explains what was done as part of the grant |
+| 1. | Universal search | Search items through all the parachains without the knowledge where it belongs |
+| 2. | Parachain dashboard | Create dashboard with stats and charts for each parachain |
 
 <div style="background-color: #F5F5DC; padding: 16px; margin-bottom: 8px">
 This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.

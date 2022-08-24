@@ -39,6 +39,18 @@ Currently, Calamar consists of the following pages:
 - **extrinsic page**: information about the extrinsic, extrinsics events table,
 - **account page**: different account address format, extrinsics signed by the account.
 
+As part of the development described in the proposal, we would like to improve the project to make it more usable for Dotsama users. Specific points to follow:
+
+1. Routing improvements for better navigation and link sharing.
+2. Displaying additional data, provided by subsquid, for existing entities.
+3. Improving the parsing of event and extrinsic parameters.
+4. Improvements to the explorer display on mobile and tablet devices.
+5. Establish an infrastructure for communication with users and developers (twitter, telegram, medium, documentations).
+6. Custom display of extrinsic data that are transfers or cross-chain messages, TODO wireframe.
+7. Expanding the account page to include the name if set and asset values and their statuses from all listed parachains, including dollar values and graphs for visualization. TODO wireframe.
+8. Adding a dashboard for chains that will show statistics and tables of the latest extrinsics, transfers and cross-chain messages, TODO wireframe.
+9. Modifying the search to not require specifying the chain in which the search is performed.
+
 > If this application is in response to an RFP, please indicate this on the first line of this section.
 >
 > If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.

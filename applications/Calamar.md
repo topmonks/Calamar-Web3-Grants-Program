@@ -30,6 +30,15 @@ For now, it allows users to search:
 
 While developing Calamar, we focus on UI and UX friendliness so that users enjoy dotsama chains exploring, as well as relevance of displayed data.
 
+### Project Details
+
+Currently, Calamar consists of the following pages:
+- **home page**: universal search box,
+- **latest extrinsics page**: table of the latest extrinsics in the selected network,
+- **block page**: information about the block, extrinsics included in the block,
+- **extrinsic page**: information about the extrinsic, extrinsics events table,
+- **account page**: different account address format, extrinsics signed by the account.
+
 > If this application is in response to an RFP, please indicate this on the first line of this section.
 >
 > If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.

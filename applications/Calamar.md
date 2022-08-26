@@ -48,7 +48,8 @@ As part of the development described in the proposal, we would like to improve t
 5. Establish an infrastructure for communication with users and developers (twitter, telegram, medium).
 6. Custom display of extrinsic data that are transfers and cross-chain messages.
 
-![XCM transfers table](https://res.cloudinary.com/topmonks/image/upload/v1661420347/calamar/xcm-table.png)
+![XCM transfers table](https://res.cloudinary.com/topmonks/image/upload/v1661502168/calamar/xcm-transfers-table.png)
+![XCM transfer page](https://res.cloudinary.com/topmonks/image/upload/v1661494067/calamar/xcm-transfer-page.png)
 
 7. Expanding the account page to include the name if set and asset values and their statuses from all listed parachains, including dollar values and graphs for visualization. TODO wireframe.
 8. Adding a dashboard for chains that will show statistics and tables of the latest extrinsics, transfers and cross-chain messages, TODO wireframe.

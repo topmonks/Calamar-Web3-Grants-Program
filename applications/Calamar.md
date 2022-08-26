@@ -172,7 +172,11 @@ As part of the development described in the proposal, we would like to improve t
 
 ## Development Status :open_book:
 
-<span style="background-color: yellow">TODO</span>
+Current version of Calamar is running on https://calamar.app
+
+It is mostly a result of [our participation](https://devpost.com/software/calamar) in [Polkadot Hackaton: North America Edition](https://polkadot-na.devpost.com/) as an implementation of the [bounty](https://github.com/subsquid/bounties/issues/1) declared by [Subsquid](https://subsquid.io) team.
+
+While it may seem to be already working explorer it has only basic features and lacks many of the important or useful ones.
 
 > If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 >
@@ -223,7 +227,7 @@ Even though we have the already working application there are still many things 
 - **FTE:** <span style="background-color: yellow">TODO</span>
 - **Costs:** 11,000 USD
 
-As we are gathering feedback, one of the most important features for the users seems to be the account overview where users can find information about their balances and transaction accross all parachains. Another important feature is to create good UI for displaying information about XCM teleports where you can easily see all involved sides (parachains, accounts) and other useful data.
+As we are gathering feedback, one of the most important features for the users seems to be the account overview where users can find information about their balances and transactions accross all parachains. Another important feature is to create good UI for displaying information about XCM teleports where you can easily see all involved sides (parachains, accounts) and other useful data.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -232,9 +236,9 @@ As we are gathering feedback, one of the most important features for the users s
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
-| 1. | Account detail | Improve account detail page with cross-parachain information <ul><li>overview of owned assets (accross all parachains)</li><li>total balance chart</li><li>list of corresponding addresses in other parachains</li> |
+| 1. | Account detail | Improve account detail page with cross-chain information <ul><li>overview of owned assets (accross all parachains)</li><li>total balance chart</li><li>list of corresponding addresses in other parachains</li> |
 | 2. | Account address parsing in events args | Detect account address in event args and link it to the account detail (parachain detected automatically) |
-| 3. | XCM transfers and teleports | Detect cross-chain messages and display relevant information of involved parachains and accounts |
+| 3. | XCM transfers and teleports | Detect cross-chain transfers and display relevant information of involved parachains and accounts |
 
 ### Milestone 3 - Universal search & Parachain dashboards
 
@@ -247,7 +251,7 @@ There are two things which can highly improve the usefulness of the explorer.
 
 The fist is the universal search where you don't have to know which parachain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is. This is going to be an addition to the current implementation where you can restrict search to a specific parachain.
 
-The next thing are dashboard for parachains with various statistics, it makes the explorer more useful even for users who are not searching specific items.
+The next big thing is dashboards for parachains with various statistics, it makes the explorer more useful even for users who are not searching specific items.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |

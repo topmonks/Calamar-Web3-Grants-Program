@@ -315,7 +315,16 @@ The next big thing is dashboards for parachains with various statistics, it make
 
 ## Future Plans
 
-<span style="background-color: yellow">TODO</span>
+There is a big potential for future improvements which the Polkadot's community can benefit from.
+
+As developers of most parachain implement their own custom modules/pallets it opens the opportunity to cooperate and customize Calamar explorer with UI/UX components and logic tailored to their needs.
+
+It relates to various XCM transactions which makes it even more complex and the more types will our explorer support the more it make the users' lives easier.
+
+Another request which came to us is to support EVM and WASM smart contracts.
+
+This is something we are definitely going to explore.
+
 
 > Please include here
 >

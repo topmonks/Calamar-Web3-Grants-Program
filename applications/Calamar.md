@@ -1,7 +1,7 @@
 # Calamar
 
 - **Team Name:** TopMonks
-- **Payment Address:** <span style="background-color: yellow">TODO</span>
+- **Payment Address:** Polkadot Acala 22zfw795fgsPRWF1Rxyac9a4eQ5KhoihtqC5tjBDCgEYHGVv
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:
@@ -51,15 +51,14 @@ As part of the development described in the proposal, we would like to improve t
 
 7. Expanding the account page to include the name if set and asset values and their statuses from all listed parachains, including dollar values and graphs for visualization.
 
-![Account page](https://res.cloudinary.com/topmonks/image/upload/v1661765178/calamar/account.png)
+![Account page](https://res.cloudinary.com/topmonks/image/upload/v1661767600/calamar/account.png)
 
 8. Adding a dashboard for chains that will show statistics and tables of the latest extrinsics, transfers and cross-chain messages.
 
+![Home page](https://res.cloudinary.com/topmonks/image/upload/v1661767637/calamar/homepage.png)
 ![Statistics page](https://res.cloudinary.com/topmonks/image/upload/v1661765199/calamar/statistics.png)
 
 9. Modifying the search to not require specifying the chain in which the search is performed.
-   
-![Home page](https://res.cloudinary.com/topmonks/image/upload/v1661765379/calamar/homepage.png)
 
 > If this application is in response to an RFP, please indicate this on the first line of this section.
 >

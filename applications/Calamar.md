@@ -34,26 +34,26 @@ Calamar explorer will allow users to search and display vairous items and statis
 The plan is to have at least these features implemented:
 
 #### Homepage
-- homepage with google-like searchbox
-- links to [parachain dashboards](#parachain-dashboards)
+Homepage with google-like searchbox and with links to [parachain dashboards](#parachain-dashboards)
 
 ![Home page](https://res.cloudinary.com/topmonks/image/upload/v1661767637/calamar/homepage.png)
 
 #### Universal search
+Search where you don't have to know which parachain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is. This is going to be an addition to the ability to restrict search to a specific parachain.
+
 - core functionality of the explorer
-- search where you don't have to know which parachain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is.
-- this is going to be an addition to the ability to restrict search to a specific parachain.
 
 #### Block detail
+Display block's data and its extrinsics
 - searchable by hash, heigh
-- display block data and its extrinsics
 
 #### Extrinsic detail
+Display extrinsic's data and its events with args
 - searchable by hash
-- display extrinsics data and its events with args
 
 #### Search extrinsics and events and by name
-- display list of matching extrinsics and events by name
+Display list of matching extrinsics and events by name
+- fulltext search - doesn't require exact name, substring is sufficient
 
 #### Account detail
 
@@ -206,25 +206,17 @@ Important feature is to create good UI for displaying information about XCM tele
 
 ## Development Status :open_book:
 
-<span style="background-color: yellow">TODO</span>
-
 Current version of Calamar is running on https://calamar.app
 
 It is mostly a result of our participation in hackaton as an implementation of the bounty declared by Subsquid team. See [Additional Inforamtion](#additional-information-heavyplussign).
 
-While it may seem to be already working explorer it has only basic features and lacks many of the important or useful ones.
+For now, it allows users to:
+- search block by hash and height display its parameters and extrinsics
+- search extrinsic by hash and display its parameters and events
+- search account by address and list its extrinsics
+- search extrinsics and events by their exact name.
 
-For now, it allows users to search:
-- for blocks by hash and height,
-- for extrinsics by hash, name or signer address
-- and for events by name.
-
-Currently, Calamar consists of the following pages:
-- **home page**: universal search box,
-- **latest extrinsics page**: table of the latest extrinsics in the selected network,
-- **block page**: information about the block, extrinsics included in the block,
-- **extrinsic page**: information about the extrinsic, extrinsics events table,
-- **account page**: different account address format, extrinsics signed by the account.
+While it may seem to be already working explorer it has only basic features and lacks many of the important or useful ones. See [Milestone 1](#milestone-1--core-functionality) for details.
 
 > If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 >

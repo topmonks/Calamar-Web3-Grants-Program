@@ -41,24 +41,23 @@ As part of the development described in the proposal, we would like to improve t
 
 1. Routing improvements for better navigation and link sharing.
 2. Displaying additional data, provided by subsquid, for existing entities.
-3. Improving the parsing of event and extrinsic parameters.
-4. Improvements to the explorer display on mobile and tablet devices.
-5. Establish an infrastructure for communication with users and developers (twitter, telegram, medium).
-6. Custom display of extrinsic data that are transfers and cross-chain messages.
+3. Improving the parsing of events and extrinsics parameters.
+4. Improvements to the explorer displaying on mobile and tablet devices.
+5. Custom displaying of extrinsic data that are transfers and cross-chain messages.
 
 ![Transfers table](https://res.cloudinary.com/topmonks/image/upload/v1661765190/calamar/transfers.png)
 ![XCM transfer page](https://res.cloudinary.com/topmonks/image/upload/v1661494067/calamar/xcm-transfer-page.png)
 
-7. Expanding the account page to include the name if set and asset values and their statuses from all listed parachains, including dollar values and graphs for visualization.
+6. Extending the account page to include the name if set and asset values and their statuses from all listed parachains, including dollar values and graphs for visualization.
 
 ![Account page](https://res.cloudinary.com/topmonks/image/upload/v1661767600/calamar/account.png)
 
-8. Adding a dashboard for chains that will show statistics and tables of the latest extrinsics, transfers and cross-chain messages.
+7. Adding a dashboard for chains that will show statistics and tables of the latest extrinsics, transfers and cross-chain messages.
 
 ![Home page](https://res.cloudinary.com/topmonks/image/upload/v1661767637/calamar/homepage.png)
 ![Statistics page](https://res.cloudinary.com/topmonks/image/upload/v1661765199/calamar/statistics.png)
 
-9. Modifying the search to not require specifying the chain in which the search is performed.
+8. Modifying the search to not require specifying the chain in which the search is performed.
 
 > If this application is in response to an RFP, please indicate this on the first line of this section.
 >
@@ -215,7 +214,7 @@ Even though we have the already working application there are still many things 
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
 | 1. | Fixes, polishing | Fix things which block the app's real usage (search results are not shareable due to missing info about the chain in the url). Add missing data in items (extrinsic args, ...). Add useful information to the website (footer with team logos, contact information, ...) |
 | 2. | Responsivness | Improve overall responsivness for mobile devices especially of item tables and extrinsics/event args |
-| 3. | Extrinsics/event args display improvements | Improve the rendering of the extrinsic/event args. Add view options: raw/json, human readable |
+| 3. | Extrinsics/event args displaying improvements | Improve the rendering of the extrinsic/event args. Add view options: raw/json, human readable |
 | 4. | Items count | Current implementation doens't show the total number of searched items. We would like to retrieve the items count and display it properly |
 | 5. | Extrinsic/event fulltext search by name | Add ability to search extrinsics and events by their name in fulltext manner |
 | 6. | Account address parsing in events args | Detect account address in event args and link it to the account detail (parachain detected automatically) |
@@ -245,7 +244,6 @@ As we are gathering feedback, one of the most important features for the users s
 - **FTE:** <span style="background-color: yellow">TODO</span>
 - **Costs:** 5,000 USD
 
-
 There are two things which can highly improve the usefulness of the explorer.
 
 The fist is the universal search where you don't have to know which parachain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is. This is going to be an addition to the current implementation where you can restrict search to a specific parachain.
@@ -255,7 +253,7 @@ The next big thing is dashboards for parachains with various statistics, it make
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | <span style="background-color: yellow">TODO</span> Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide inline documentation of the code where necessary  and tutorials how to use new features. |
+| 0b. | Documentation | We will provide inline documentation of the code where necessary and tutorials how to use new features. |
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
@@ -314,16 +312,16 @@ The next big thing is dashboards for parachains with various statistics, it make
 
 ## Future Plans
 
-There is a big potential for future improvements which the Polkadot's community can benefit from.
+There is a huge potential for future improvements which the Polkadot's community can benefit from.
 
-As developers of most parachain implement their own custom modules/pallets it opens the opportunity to cooperate and customize Calamar explorer with UI/UX components and logic tailored to their needs.
+As developers of most parachains implement their own custom modules/pallets it opens the opportunity to cooperate and customize Calamar explorer with UI/UX components and logic tailored to their needs.
+    
+It relates to various XCM transactions which makes it even more complex and the more types will our explorer support the more it makes the users' lives easier.
 
-It relates to various XCM transactions which makes it even more complex and the more types will our explorer support the more it make the users' lives easier.
-
-Another request which came to us is to support EVM and WASM smart contracts.
-
-This is something we are definitely going to explore.
-
+Another requests which came to us are:
+- supporting EVM and WASM smart contracts,
+- exporting transactions for accounting and taxation purposes,
+- displaying NFTs collections and crowdloans rich data.
 
 > Please include here
 >

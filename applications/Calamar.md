@@ -75,7 +75,7 @@ Each parachain will have own dashboard with statistics and listing of latest blo
 ![Statistics page](https://res.cloudinary.com/topmonks/image/upload/v1661765199/calamar/statistics.png)
 
 #### Cross-chain transfers
-Important feature is to create good UI for displaying information about XCM teleports and toher cross-chain transfers where you can easily see all involved sides (parachains, accounts) and other useful data.
+Important feature is to create good UI for displaying information about XCM teleports and other cross-chain transfers where you can easily see all involved sides (parachains, accounts) and other useful data.
 
 - in extrinsic detail
 
@@ -131,7 +131,7 @@ Important feature is to create good UI for displaying information about XCM tele
 - Calamar will help the community keep track of what's happening on the network, including XMC transfers, account overviews and chains statistics.
 - Target audience are Dotsama developers, investors and ecosystem users.
 - Calamar users will have opensource user-friendly UI prepared to use with Subsquid API.
-- There are projects with similar functionality, Polkaholic and Subscan. Unlike Calamar, Polkaholic doesn't have well-thought-out UX and design. Subscan isn't opensource and doesn't support XMC messages, multichain search and multichain accounts displaying.
+- There are projects with similar functionality like Subscan or Polkaholic. Instead of trying to reinvent the wheel, we won't build our custom data indexing solution and rather rely on the poweful framework and API from Subsquid which is still evolving and has own dedicated development team. We focus on good UI and UX. Our solution will be aware of multichain environment (XCM transfers, cross-chain search, multichain account view). And the code will be opensource.
 
 ## Team :busts_in_silhouette:
 
@@ -140,13 +140,13 @@ Important feature is to create good UI for displaying information about XCM tele
 - Antonina Nesmelova - developer
 - Richard Jedlička - developer
 - Radek Jakl - designer
-- Jan Lopusek - project manager 
+- Jan Lopusek - project manager
 
 ### Contact
 
 - **Contact Name:** Jan Lopusek
 - **Contact Email:** jan.lopusek@topmonks.com
-- **Website:** https://topmonks.com/ , https://blockchain.topmonks.com/ 
+- **Website:** https://topmonks.com/ , https://blockchain.topmonks.com/
 
 ### Legal Structure
 
@@ -155,7 +155,7 @@ Important feature is to create good UI for displaying information about XCM tele
 
 ### Team's experience
 
-Antonina Nesmelova and Richard Jedlička developed the first version of Calamar explorer. 
+Antonina Nesmelova and Richard Jedlička developed the first version of Calamar explorer.
 Before that, they had extensive experience (3 and 10 years) in developing frontends and backends for decentralized and classic applications.
 Radek Jakl invented the design for Calamar. He also has 18 years experience in graphic and UI/UX design.
 

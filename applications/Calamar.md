@@ -6,9 +6,17 @@
 
 ## Project Overview :page_facing_up:
 
-The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks blockchain studio has gathered feedback from friendly projects such as HydraDx and KodaDot among others.
-We have applied for the bounty from Subsquid of the Polkadot hackaton North America edition, that required developing block explorer ([https://devpost.com/software/calamar](https://devpost.com/software/calamar)).
-We call it the Calamar, as it is in line with the Subsquid identity.
+This application is a response to a [Multi-chain Block Explorer
+](https://github.com/w3f/Grants-Program/blob/master/rfps/under_development/multi-chain-block-explorer.md) RFP
+
+### Overview
+
+Calamar is a block explorer for Polkadot and Kusama relay chains and their parachains, that uses Subsquid API for data fetching.
+
+The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks company's Blockchain Studio has gathered feedback from friendly projects such as HydraDx and KodaDot among others.
+We have applied for and won the bounty from Subsquid in the Polkadot Hackaton: North America edition, that requested developing a block explorer. Our submission: https://devpost.com/software/calamar
+
+We call the app Calamar, as it is in line with the Subsquid identity.
 
 It is available here:
 [https://calamar.app](https://calamar.app) \
@@ -17,47 +25,62 @@ and we manage the code here:
 
 Based on the positive feedback we would like to push the project further and bring more valuable features for the users, closely cooperating with the [Subsquid](https://subsquid.io) team and gathering an on-going feedback from the users.
 
-### Overview
-
-Calamar is a block explorer for Polkadot and Kusama relay chains and their parachains, that uses Subsquid API for data fetching.
-
-For now, it allows users to search:
-- for blocks by hash and height,
-- for extrinsics by hash, name or signer address
-- and for events by name.
-
 While developing Calamar, we focus on UI and UX friendliness so that users enjoy dotsama chains exploring, as well as relevance of displayed data.
 
 ### Project Details
 
-Currently, Calamar consists of the following pages:
-- **home page**: universal search box,
-- **latest extrinsics page**: table of the latest extrinsics in the selected network,
-- **block page**: information about the block, extrinsics included in the block,
-- **extrinsic page**: information about the extrinsic, extrinsics events table,
-- **account page**: different account address format, extrinsics signed by the account.
+Calamar explorer will allow users to search and display vairous items and statistics.
 
-As part of the development described in the proposal, we would like to improve the project to make it more usable for Dotsama users. Specific points to follow:
+The plan is to have at least these features implemented:
 
-1. Routing improvements for better navigation and link sharing.
-2. Displaying additional data, provided by subsquid, for existing entities.
-3. Improving the parsing of events and extrinsics parameters.
-4. Improvements to the explorer displaying on mobile and tablet devices.
-5. Custom displaying of extrinsic data that are transfers and cross-chain messages.
+#### Homepage
+- homepage with google-like searchbox
+- links to [parachain dashboards](#parachain-dashboards)
 
-![Transfers table](https://res.cloudinary.com/topmonks/image/upload/v1661765190/calamar/transfers.png)
-![XCM transfer page](https://res.cloudinary.com/topmonks/image/upload/v1661494067/calamar/xcm-transfer-page.png)
+![Home page](https://res.cloudinary.com/topmonks/image/upload/v1661767637/calamar/homepage.png)
 
-6. Extending the account page to include the name if set and asset values and their statuses from all listed parachains, including dollar values and graphs for visualization.
+#### Universal search
+- core functionality of the explorer
+- search where you don't have to know which parachain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is.
+- this is going to be an addition to the ability to restrict search to a specific parachain.
+
+#### Block detail
+- searchable by hash, heigh
+- display block data and its extrinsics
+
+#### Extrinsic detail
+- searchable by hash
+- display extrinsics data and its events with args
+
+#### Search extrinsics and events and by name
+- display list of matching extrinsics and events by name
+
+#### Account detail
+
+As we are gathering feedback, one of the most important features for the users seems to be the account overview where users can find information about their balances and transactions accross all parachains.
+
+- searchable by public key or parachain-specific address
+- display
+  - account's name if set
+  - owned assets and their statuses from all listed parachains, including dollar values and graphs for visualization.
+  - list all parachain-specific addresses
+  - list all related transfers, cross-chain transfers and other extrinsics
 
 ![Account page](https://res.cloudinary.com/topmonks/image/upload/v1661767600/calamar/account.png)
 
-7. Adding a dashboard for chains that will show statistics and tables of the latest extrinsics, transfers and cross-chain messages.
+#### Parachain dashboards
 
-![Home page](https://res.cloudinary.com/topmonks/image/upload/v1661767637/calamar/homepage.png)
+Each parachain will have own dashboard with statistics and listing of latest blocks, latest transfers, top holders, etc. It makes the explorer more useful even for users who are not searching for specific items.
+
 ![Statistics page](https://res.cloudinary.com/topmonks/image/upload/v1661765199/calamar/statistics.png)
 
-8. Modifying the search to not require specifying the chain in which the search is performed.
+#### Cross-chain transfers
+Important feature is to create good UI for displaying information about XCM teleports and toher cross-chain transfers where you can easily see all involved sides (parachains, accounts) and other useful data.
+
+- in extrinsic detail
+![XCM transfer page](https://res.cloudinary.com/topmonks/image/upload/v1661494067/calamar/xcm-transfer-page.png)
+- in listing
+![Transfers table](https://res.cloudinary.com/topmonks/image/upload/v1661765190/calamar/transfers.png)
 
 > If this application is in response to an RFP, please indicate this on the first line of this section.
 >
@@ -173,11 +196,25 @@ As part of the development described in the proposal, we would like to improve t
 
 ## Development Status :open_book:
 
+<span style="background-color: yellow">TODO</span>
+
 Current version of Calamar is running on https://calamar.app
 
 It is mostly a result of our participation in hackaton as an implementation of the bounty declared by Subsquid team. See [Additional Inforamtion](#additional-information-heavyplussign).
 
 While it may seem to be already working explorer it has only basic features and lacks many of the important or useful ones.
+
+For now, it allows users to search:
+- for blocks by hash and height,
+- for extrinsics by hash, name or signer address
+- and for events by name.
+
+Currently, Calamar consists of the following pages:
+- **home page**: universal search box,
+- **latest extrinsics page**: table of the latest extrinsics in the selected network,
+- **block page**: information about the block, extrinsics included in the block,
+- **extrinsic page**: information about the extrinsic, extrinsics events table,
+- **account page**: different account address format, extrinsics signed by the account.
 
 > If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 >
@@ -220,13 +257,13 @@ Even though we have the already working application there are still many things 
 | 6. | Account address parsing in events args | Detect account address in event args and link it to the account detail (parachain detected automatically) |
 | 7. | Polkadot.js integration | Integrate links to the Calamar Explorer into Polkadot.js app |
 
-### Milestone 2 - Account detail & XCM teleports
+### Milestone 2 - Account detail & Cross-chain transfers
 
 - **Estimated duration:** 1 month
 - **FTE:** <span style="background-color: yellow">TODO</span>
 - **Costs:** 10,000 USD
 
-As we are gathering feedback, one of the most important features for the users seems to be the account overview where users can find information about their balances and transactions accross all parachains. Another important feature is to create good UI for displaying information about XCM teleports where you can easily see all involved sides (parachains, accounts) and other useful data.
+Here we want to implement the most requested features, the [account detail overview](#account-detail) and [cross-chain transfers](#cross-chain-transfers)
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -246,9 +283,7 @@ As we are gathering feedback, one of the most important features for the users s
 
 There are two things which can highly improve the usefulness of the explorer.
 
-The fist is the universal search where you don't have to know which parachain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is. This is going to be an addition to the current implementation where you can restrict search to a specific parachain.
-
-The next big thing is dashboards for parachains with various statistics, it makes the explorer more useful even for users who are not searching specific items.
+The fist is the [universal search](#universal-search) and the next big thing is [dashboards for parachains](#parachain-dashboards).
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -258,7 +293,7 @@ The next big thing is dashboards for parachains with various statistics, it make
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
 | 1. | Universal search | Search items through all the parachains without the knowledge where it belongs |
-| 2. | Parachain dashboard | Create dashboard with stats and charts for each parachain |
+| 2. | Parachain dashboard | Create dashboard with stats, charts and listings for each parachain |
 
 > This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 >

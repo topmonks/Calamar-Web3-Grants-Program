@@ -100,6 +100,13 @@ As part of the development described in the proposal, we would like to improve t
 >   - If so, how is your project different?
 >   - If not, are there similar projects in related ecosystems?
 
+### Ecosystem Fit
+
+- Calamar will help the community keep track of what's happening on the network, including XMC transfers, account overviews and chains statistics.
+- Target audience are Dotsama developers, investors and ecosystem users.
+- Calamar users will have opensource user-friendly UI prepared to use with Subsquid API.
+- There are projects with similar functionality, Polkaholic and Subscan. Unlike Calamar, Polkaholic doesn't have well-thought-out UX and design. Subscan isn't opensource and doesn't support XMC messages, multichain search and multichain accounts displaying.  
+
 ## Team :busts_in_silhouette:
 
 <span style="background-color: yellow">TODO</span>

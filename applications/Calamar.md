@@ -85,6 +85,13 @@ Important feature is to create good UI for displaying information about XCM tele
 
 ![Transfers table](https://res.cloudinary.com/topmonks/image/upload/v1661765190/calamar/transfers.png)
 
+### Ecosystem Fit
+
+- Calamar will help the community keep track of what's happening on the network, including XMC transfers, account overviews and chains statistics.
+- Target audience are Dotsama developers, investors and ecosystem users.
+- Calamar users will have opensource user-friendly UI prepared to use with Subsquid API.
+- There are projects with similar functionality like Subscan or Polkaholic. Instead of trying to reinvent the wheel, we won't build our custom data indexing solution and rather rely on the poweful framework and API from Subsquid which is still evolving and has own dedicated development team. We focus on good UI and UX. Our solution will be aware of multichain environment (XCM transfers, cross-chain search, multichain account view). And the code will be opensource.
+
 > If this application is in response to an RFP, please indicate this on the first line of this section.
 >
 > If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
@@ -125,13 +132,6 @@ Important feature is to create good UI for displaying information about XCM tele
 > - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
 >   - If so, how is your project different?
 >   - If not, are there similar projects in related ecosystems?
-
-### Ecosystem Fit
-
-- Calamar will help the community keep track of what's happening on the network, including XMC transfers, account overviews and chains statistics.
-- Target audience are Dotsama developers, investors and ecosystem users.
-- Calamar users will have opensource user-friendly UI prepared to use with Subsquid API.
-- There are projects with similar functionality like Subscan or Polkaholic. Instead of trying to reinvent the wheel, we won't build our custom data indexing solution and rather rely on the poweful framework and API from Subsquid which is still evolving and has own dedicated development team. We focus on good UI and UX. Our solution will be aware of multichain environment (XCM transfers, cross-chain search, multichain account view). And the code will be opensource.
 
 ## Team :busts_in_silhouette:
 

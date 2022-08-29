@@ -196,15 +196,15 @@ While it may seem to be already working explorer it has only basic features and 
 
 - **Total Estimated Duration:** 3 month
 - **Full-Time Equivalent (FTE):** <span style="background-color: yellow">TODO</span>
-- **Total Costs:** 30,000 USD
+- **Total Costs:** <span style="background-color: yellow">TODO</span>
 
 ### Milestone 1 — Core functionality
 
 - **Estimated duration:** 1 month
 - **FTE:** <span style="background-color: yellow">TODO</span>
-- **Costs:** 11,000 USD
+- **Costs:** 10,000 USD
 
-Even though we have the already working application there are still many things missing. Some of them prevent the users to use Calamar fully as the main explorer. We need to first assure the correct core functionality, display all meaningful data which are retrievable without further processing, improve design and UX and integrate more into the Polkadot ecosystem.
+Even though we have the already working application there are still many things missing. Some of them prevent the users to use Calamar fully as the main explorer. We need to first assure the correct core functionality, display all the meaningful data which are retrievable without further complex processing, improve design and UX and integrate more into the Polkadot ecosystem.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -213,21 +213,19 @@ Even though we have the already working application there are still many things 
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | We will provide a Dockerfile(s) for testing and running own Calamar instance. |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
-| 1. | Shareable links | Current implementation of the Calamar Explorer does not allow users to share links with the search result due to urls are not linked to a specific chain. We would like add the chain information in the url which would allow us to keep the source of information. |
-| 2. | Add missing data | Find out and add data which are missing and can be displayed for individual items (extrinsics args, ...) |
-| 3. | Website info | Add useful information to the website such as footer with team logos, contact information, etc. |
-| 4. | Responsivness | Improve overall responsivness for mobile devices especially of item tables and extrinsics/event args |
-| 5. | Polkadot.js integration | Integrate links to the Calamar Explorer into Polkadot.js app |
-| 6. | Extrinsics/event args display improvements | Improve the way how extrinsic/event args are displayed <ul><li>property data types</li><li>multiple views (raw/json, human readable)</li></ul> |
-| 7. | Items count | Current implementation doens't show the total number of searched items. We would like to retrieve the items count and display it properly |
-| 8. | Extrinsic/event fulltext search by name | Add ability to search extrinsics and events by their name in fulltext manner |
-| 9. | PR, user support | Setup channels (telegram, twitter, blog) for communication with users for annoucments, support etc. |
+| 1. | Fixes, polishing | Fix things which block the app's real usage (search results are not shareable due to missing info about the chain in the url). Add missing data in items (extrinsic args, ...). Add useful information to the website (footer with team logos, contact information, ...) |
+| 2. | Responsivness | Improve overall responsivness for mobile devices especially of item tables and extrinsics/event args |
+| 3. | Extrinsics/event args display improvements | Improve the rendering of the extrinsic/event args. Add view options: raw/json, human readable |
+| 4. | Items count | Current implementation doens't show the total number of searched items. We would like to retrieve the items count and display it properly |
+| 5. | Extrinsic/event fulltext search by name | Add ability to search extrinsics and events by their name in fulltext manner |
+| 6. | Account address parsing in events args | Detect account address in event args and link it to the account detail (parachain detected automatically) |
+| 7. | Polkadot.js integration | Integrate links to the Calamar Explorer into Polkadot.js app |
 
 ### Milestone 2 - Account detail & XCM teleports
 
 - **Estimated duration:** 1 month
 - **FTE:** <span style="background-color: yellow">TODO</span>
-- **Costs:** 11,000 USD
+- **Costs:** 10,000 USD
 
 As we are gathering feedback, one of the most important features for the users seems to be the account overview where users can find information about their balances and transactions accross all parachains. Another important feature is to create good UI for displaying information about XCM teleports where you can easily see all involved sides (parachains, accounts) and other useful data.
 
@@ -239,14 +237,13 @@ As we are gathering feedback, one of the most important features for the users s
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
 | 1. | Account detail | Improve account detail page with cross-chain information <ul><li>overview of owned assets (accross all parachains)</li><li>total balance chart</li><li>list of corresponding addresses in other parachains</li> |
-| 2. | Account address parsing in events args | Detect account address in event args and link it to the account detail (parachain detected automatically) |
-| 3. | XCM transfers and teleports | Detect cross-chain transfers and display relevant information of involved parachains and accounts |
+| 2. | XCM transfers and teleports | Detect cross-chain transfers and display relevant information of involved parachains and accounts |
 
 ### Milestone 3 - Universal search & Parachain dashboards
 
 - **Estimated duration:** 1 month
 - **FTE:** <span style="background-color: yellow">TODO</span>
-- **Costs:** 8,000 USD
+- **Costs:** 5,000 USD
 
 
 There are two things which can highly improve the usefulness of the explorer.

@@ -175,7 +175,7 @@ As part of the development described in the proposal, we would like to improve t
 
 Current version of Calamar is running on https://calamar.app
 
-It is mostly a result of [our participation](https://devpost.com/software/calamar) in [Polkadot Hackaton: North America Edition](https://polkadot-na.devpost.com/) as an implementation of the [bounty](https://github.com/subsquid/bounties/issues/1) declared by [Subsquid](https://subsquid.io) team.
+It is mostly a result of our participation in hackaton as an implementation of the bounty declared by Subsquid team. See [Additional Inforamtion](#additional-information-heavyplussign).
 
 While it may seem to be already working explorer it has only basic features and lacks many of the important or useful ones.
 
@@ -315,13 +315,13 @@ The next big thing is dashboards for parachains with various statistics, it make
 There is a huge potential for future improvements which the Polkadot's community can benefit from.
 
 As developers of most parachains implement their own custom modules/pallets it opens the opportunity to cooperate and customize Calamar explorer with UI/UX components and logic tailored to their needs.
-    
+
 It relates to various XCM transactions which makes it even more complex and the more types will our explorer support the more it makes the users' lives easier.
 
 Another requests which came to us are:
-- supporting EVM and WASM smart contracts,
-- exporting transactions for accounting and taxation purposes,
-- displaying NFTs collections and crowdloans rich data.
+- supporting EVM and WASM smart contracts
+- exporting transactions for accounting and taxation purposes
+- displaying NFTs collections and crowdloans rich data
 
 > Please include here
 >
@@ -333,8 +333,7 @@ Another requests which came to us are:
 
 **How did you hear about the Grants Program?** Personal recommendation
 
-> Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
->
-> - Work you have already done.
-> - If there are any other teams who have already contributed (financially) to the project.
-> - Previous grants you may have applied for.
+- We participated and won a bounty in [Polkadot Hackaton: North America Edition](https://polkadot-na.devpost.com/)
+  - bounty: https://github.com/subsquid/bounties/issues/1
+  - our submission: https://devpost.com/software/calamar
+- We are cooperating with [Subsquid team](https://subsquid.io) that provides us data

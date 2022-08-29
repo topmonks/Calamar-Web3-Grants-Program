@@ -135,17 +135,18 @@ Important feature is to create good UI for displaying information about XCM tele
 
 ## Team :busts_in_silhouette:
 
-<span style="background-color: yellow">TODO</span>
-
 ### Team members
 
-<span style="background-color: yellow">TODO</span>
+- Antonina Nesmelova - developer
+- Richard Jedlička - developer
+- Radek Jakl - designer
+- Jan Lopusek - project manager 
 
 ### Contact
 
-- **Contact Name:** <span style="background-color: yellow">TODO</span>
-- **Contact Email:** <span style="background-color: yellow">TODO</span>
-- **Website:** https://topmonks.com
+- **Contact Name:** Jan Lopusek
+- **Contact Email:** jan.lopusek@topmonks.com
+- **Website:** https://topmonks.com/ , https://blockchain.topmonks.com/ 
 
 ### Legal Structure
 
@@ -154,17 +155,26 @@ Important feature is to create good UI for displaying information about XCM tele
 
 ### Team's experience
 
-<span style="background-color: yellow">TODO</span>
+Antonina Nesmelova and Richard Jedlička developed the first version of Calamar explorer. 
+Before that, they had extensive experience (3 and 10 years) in developing frontends and backends for decentralized and classic applications.
+Radek Jakl invented the design for Calamar. He also has 18 years experience in graphic and UI/UX design.
 
 ### Team Code Repos
 
 - https://github.com/topmonks/calamar
+- https://github.com/topmonks
 
-<span style="background-color: yellow">TODO</span>
+Projects references:
+- https://calamar.app/
+- https://about.meetvers.io/ , https://app.meetvers.io/
+- https://brute.cz/
 
 ### Team LinkedIn Profiles
 
-<span style="background-color: yellow">TODO</span>
+- https://www.linkedin.com/in/antonina-nesmelova-3a8365149
+- https://www.linkedin.com/in/richardjedlicka/
+- https://www.linkedin.com/in/jaklradek/
+- https://www.linkedin.com/in/jan-lopusek/
 
 > ### Team members
 >

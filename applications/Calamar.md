@@ -185,9 +185,7 @@ Jan Lopusek co-founded the startup studio for TopMonks software house, he is exp
 - https://www.linkedin.com/in/richardjedlicka/
 - https://www.linkedin.com/in/jaklradek/
 - https://www.linkedin.com/in/jan-lopusek/
-
 - https://github.com/uiii
-
 - http://jaklradek.com/
 
 > ### Team members

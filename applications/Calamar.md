@@ -230,7 +230,7 @@ Jan Lopusek co-founded the startup studio for TopMonks software house, he is exp
 
 Current version of Calamar is running on https://calamar.app
 
-It is mostly a result of our participation in hackaton as an implementation of the bounty declared by Subsquid team. See [Additional Inforamtion](#additional-information-heavyplussign).
+It is mostly a result of our participation in hackaton as an implementation of the bounty declared by Subsquid team. See [Additional Information](#additional-information-heavyplussign).
 
 For now, it allows users to:
 - search block by hash and height display its parameters and extrinsics

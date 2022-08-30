@@ -158,10 +158,13 @@ Node.js, React.
 
 ### Team's experience
 
-Antonina Nesmelova and Richard Jedlička developed the first version of Calamar explorer.
+All of our team members developed the first version of Calamar explorer.
+
 Antonina Nesmelova is young and enthusiastic web-developer with 3,5 years experience with web applications development, including a year and a half of experience in the world of crypto: development of dApps and smart contracts.
 
-<span style="background-color: yellow">TODO</span>
+Radek Jakl invented the design for Calamar. He has many years experience in graphic and UI/UX design.
+
+Jan Lopusek co-founded the startup studio for TopMonks software house, he is experienced project manager and business developer
 
 ### Team Code Repos
 
@@ -258,7 +261,7 @@ Even though we have the already working application there are still many things 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | <span style="background-color: yellow">TODO</span> Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide inline documentation of the code where necessary, technical description how to run the own instance of Calamar and tutorials how to use the application from the user perspective. |
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | We will provide a Dockerfile(s) for testing and running own Calamar instance. |
@@ -281,7 +284,7 @@ Here we want to implement the most requested features, the [account detail overv
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | <span style="background-color: yellow">TODO</span> Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide inline documentation of the code where necessary  and tutorials how to use new features. |
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
@@ -301,7 +304,7 @@ The fist is the [universal search](#universal-search) and the next big thing is 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | <span style="background-color: yellow">TODO</span> Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide inline documentation of the code where necessary and tutorials how to use new features. |
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |

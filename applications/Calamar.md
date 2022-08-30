@@ -249,14 +249,14 @@ While it may seem to be already working explorer it has only basic features and 
 
 ### Overview
 
-- **Total Estimated Duration:** 3 months
-- **Full-Time Equivalent (FTE):** 1.8
+- **Total Estimated Duration:** 11 weeks
+- **Full-Time Equivalent (FTE):** 1
 - **Total Costs:** $27,500
 
 ### Milestone 1 — Core functionality
 
-- **Estimated duration:** 1 month
-- **FTE:** 2
+- **Estimated duration:** 4 weeks
+- **FTE:** 1
 - **Costs:** $10,000
 
 Even though we have the already working application there are still many things missing. Some of them prevent the users to use Calamar fully as the main explorer. We need to first assure the correct core functionality, display all the meaningful data which are retrievable without further complex processing, improve design and UX and integrate more into the Polkadot ecosystem.
@@ -278,8 +278,8 @@ Even though we have the already working application there are still many things 
 
 ### Milestone 2 - Account detail & Cross-chain transfers
 
-- **Estimated duration:** 1 month
-- **FTE:** 2
+- **Estimated duration:** 4 weeks
+- **FTE:** 1
 - **Costs:** $10,000
 
 Here we want to implement the most requested features, the [account detail overview](#account-detail) and [cross-chain transfers](#cross-chain-transfers)
@@ -291,13 +291,13 @@ Here we want to implement the most requested features, the [account detail overv
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
-| 1. | Account detail | Improve account detail page with cross-chain information <ul><li>overview of owned assets (accross all parachains)</li><li>total balance chart</li><li>list of corresponding addresses in other parachains</li> |
+| 1. | Account detail | Improve account detail page with cross-chain information |
 | 2. | XCM transfers and teleports | Detect cross-chain transfers and display relevant information of involved parachains and accounts |
 
 ### Milestone 3 - Universal search & Parachain dashboards
 
-- **Estimated duration:** 1 month
-- **FTE:** 1.5
+- **Estimated duration:** 3 weeks
+- **FTE:** 1
 - **Costs:** $7,500
 
 There are two things which can highly improve the usefulness of the explorer.

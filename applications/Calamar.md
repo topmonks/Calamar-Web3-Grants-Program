@@ -1,7 +1,7 @@
 # Calamar
 
 - **Team Name:** TopMonks
-- **Payment Address:** Polkadot Acala 22zfw795fgsPRWF1Rxyac9a4eQ5KhoihtqC5tjBDCgEYHGVv
+- **Payment Address:** BTC native segwit: bc1qltdenhs6ls9rmu0xq86y9g8uex7gg8dynlnkv3
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:

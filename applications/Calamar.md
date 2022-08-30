@@ -172,19 +172,23 @@ Jan Lopusek co-founded the startup studio for TopMonks software house, he is exp
 
 - https://github.com/topmonks
 - https://github.com/topmonks/calamar
-- https://github.com/uiii
 
-Projects references:
+### Project references
+
 - https://calamar.app/
 - https://about.meetvers.io/, https://app.meetvers.io/
 - https://brute.cz/
 
-### Team LinkedIn Profiles
+### Team Profiles
 
 - https://www.linkedin.com/in/antonina-nesmelova-3a8365149
 - https://www.linkedin.com/in/richardjedlicka/
 - https://www.linkedin.com/in/jaklradek/
 - https://www.linkedin.com/in/jan-lopusek/
+
+- https://github.com/uiii
+
+- http://jaklradek.com/
 
 > ### Team members
 >

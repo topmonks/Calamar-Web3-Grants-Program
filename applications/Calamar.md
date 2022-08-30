@@ -159,8 +159,9 @@ Node.js, React.
 ### Team's experience
 
 Antonina Nesmelova and Richard Jedlička developed the first version of Calamar explorer.
-Before that, they had extensive experience (3 and 10 years) in developing frontends and backends for decentralized and classic applications.
-Radek Jakl invented the design for Calamar. He also has 18 years experience in graphic and UI/UX design.
+Antonina Nesmelova is young and enthusiastic web-developer with 3,5 years experience with web applications development, including a year and a half of experience in the world of crypto: development of dApps and smart contracts.
+
+<span style="background-color: yellow">TODO</span>
 
 ### Team Code Repos
 

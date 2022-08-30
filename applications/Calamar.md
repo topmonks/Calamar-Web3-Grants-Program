@@ -80,13 +80,13 @@ Important feature is to create good UI for displaying information about XCM tele
 
 ![XCM transfer page](https://res.cloudinary.com/topmonks/image/upload/v1661494067/calamar/xcm-transfer-page.png)
 
-- in transfers table 
+- in transfers table
 
 ![Transfers table](https://res.cloudinary.com/topmonks/image/upload/v1661765190/calamar/transfers.png)
 
-#### Technology stack
+### Technology stack
 
-Node.js, React.
+Typescript, React, GraphQL
 
 ### Ecosystem Fit
 
@@ -162,7 +162,9 @@ All of our team members developed the first version of Calamar explorer.
 
 Antonina Nesmelova is young and enthusiastic web-developer with 3,5 years experience with web applications development, including a year and a half of experience in the world of crypto: development of dApps and smart contracts.
 
-Radek Jakl invented the design for Calamar. He has many years experience in graphic and UI/UX design.
+Richard Jedlička has several years of expertise in web applications full-stack development.
+
+Radek Jakl invented the design for Calamar. He has many years of experience in graphics and UI/UX design.
 
 Jan Lopusek co-founded the startup studio for TopMonks software house, he is experienced project manager and business developer
 

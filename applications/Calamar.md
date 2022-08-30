@@ -242,19 +242,17 @@ While it may seem to be already working explorer it has only basic features and 
 
 ## Development Roadmap :nut_and_bolt:
 
-<span style="background-color: yellow">TODO</span>
-
 ### Overview
 
-- **Total Estimated Duration:** 3 month
-- **Full-Time Equivalent (FTE):** <span style="background-color: yellow">TODO</span>
-- **Total Costs:** <span style="background-color: yellow">TODO</span>
+- **Total Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):** 1.8
+- **Total Costs:** $27,500
 
 ### Milestone 1 — Core functionality
 
 - **Estimated duration:** 1 month
-- **FTE:** <span style="background-color: yellow">TODO</span>
-- **Costs:** 10,000 USD
+- **FTE:** 2
+- **Costs:** $10,000
 
 Even though we have the already working application there are still many things missing. Some of them prevent the users to use Calamar fully as the main explorer. We need to first assure the correct core functionality, display all the meaningful data which are retrievable without further complex processing, improve design and UX and integrate more into the Polkadot ecosystem.
 
@@ -276,8 +274,8 @@ Even though we have the already working application there are still many things 
 ### Milestone 2 - Account detail & Cross-chain transfers
 
 - **Estimated duration:** 1 month
-- **FTE:** <span style="background-color: yellow">TODO</span>
-- **Costs:** 10,000 USD
+- **FTE:** 2
+- **Costs:** $10,000
 
 Here we want to implement the most requested features, the [account detail overview](#account-detail) and [cross-chain transfers](#cross-chain-transfers)
 
@@ -294,8 +292,8 @@ Here we want to implement the most requested features, the [account detail overv
 ### Milestone 3 - Universal search & Parachain dashboards
 
 - **Estimated duration:** 1 month
-- **FTE:** <span style="background-color: yellow">TODO</span>
-- **Costs:** 5,000 USD
+- **FTE:** 1.5
+- **Costs:** $7,500
 
 There are two things which can highly improve the usefulness of the explorer.
 

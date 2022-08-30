@@ -6,8 +6,7 @@
 
 ## Project Overview :page_facing_up:
 
-This application is a response to a [Multi-chain Block Explorer
-](https://github.com/w3f/Grants-Program/blob/master/rfps/under_development/multi-chain-block-explorer.md) RFP
+This application is a response to a [Multi-chain Block Explorer](https://github.com/w3f/Grants-Program/blob/master/rfps/under_development/multi-chain-block-explorer.md) RFP
 
 ### Overview
 
@@ -29,7 +28,7 @@ While developing Calamar, we focus on UI and UX friendliness so that users enjoy
 
 ### Project Details
 
-Calamar explorer will allow users to search and display vairous items and statistics.
+Calamar explorer will allow users to search and display various items and statistics.
 
 The plan is to have at least these features implemented:
 
@@ -45,52 +44,56 @@ Search where you don't have to know which parachain the searched item belongs to
 
 #### Block detail
 Display block's data and its extrinsics
-- searchable by hash, heigh
+- searchable by hash, height
 
 #### Extrinsic detail
 Display extrinsic's data and its events with args
 - searchable by hash
 
-#### Search extrinsics and events and by name
+#### Search extrinsics and events by name
 Display list of matching extrinsics and events by name
 - fulltext search - doesn't require exact name, substring is sufficient
 
 #### Account detail
 
-As we are gathering feedback, one of the most important features for the users seems to be the account overview where users can find information about their balances and transactions accross all parachains.
+As we are gathering feedback, one of the most important features for the users seems to be the account overview where users can find information about their balances and transactions across all chains.
 
-- searchable by public key or parachain-specific address
+- searchable by public key or chain-specific address
 - display
   - account's name if set
-  - owned assets and their statuses from all listed parachains, including dollar values and graphs for visualization.
-  - list all parachain-specific addresses
+  - owned assets and their statuses from all listed chains, including dollar values and graphs for visualization.
+  - list all chain-specific addresses
   - list all related transfers, cross-chain transfers and other extrinsics
 
 ![Account page](https://res.cloudinary.com/topmonks/image/upload/v1661767600/calamar/account.png)
 
-#### Parachain dashboards
+#### Chain dashboards
 
-Each parachain will have own dashboard with statistics and listing of latest blocks, latest transfers, top holders, etc. It makes the explorer more useful even for users who are not searching for specific items.
+Each chain will have own dashboard with statistics and listing of latest blocks, latest transfers, top holders, etc. It makes the explorer more useful even for users who are not searching for specific items.
 
 ![Statistics page](https://res.cloudinary.com/topmonks/image/upload/v1661765199/calamar/statistics.png)
 
 #### Cross-chain transfers
-Important feature is to create good UI for displaying information about XCM teleports and other cross-chain transfers where you can easily see all involved sides (parachains, accounts) and other useful data.
+Important feature is to create good UI for displaying information about XCM teleports and other cross-chain transfers where you can easily see all involved sides (chains, accounts) and other useful data.
 
-- in extrinsic detail
+- XCM transfer detail
 
 ![XCM transfer page](https://res.cloudinary.com/topmonks/image/upload/v1661494067/calamar/xcm-transfer-page.png)
 
-- in listing
+- in transfers table 
 
 ![Transfers table](https://res.cloudinary.com/topmonks/image/upload/v1661765190/calamar/transfers.png)
+
+#### Technology stack
+
+Node.js, React.
 
 ### Ecosystem Fit
 
 - Calamar will help the community keep track of what's happening on the network, including XMC transfers, account overviews and chains statistics.
 - Target audience are Dotsama developers, investors and ecosystem users.
 - Calamar users will have opensource user-friendly UI prepared to use with Subsquid API.
-- There are projects with similar functionality like Subscan or Polkaholic. Instead of trying to reinvent the wheel, we won't build our custom data indexing solution and rather rely on the poweful framework and API from Subsquid which is still evolving and has own dedicated development team. We focus on good UI and UX. Our solution will be aware of multichain environment (XCM transfers, cross-chain search, multichain account view). And the code will be opensource.
+- There are projects with similar functionality like Subscan or Polkaholic. Instead of trying to reinvent the wheel, we won't build our custom data indexing solution and rather rely on the powerful framework and API from Subsquid which is still evolving and has own dedicated development team. We focus on good UI and UX. Our solution will be aware of multichain environment (XCM transfers, cross-chain search, multichain account view). And the code will be opensource.
 
 > If this application is in response to an RFP, please indicate this on the first line of this section.
 >

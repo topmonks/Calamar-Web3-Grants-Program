@@ -54,19 +54,6 @@ Display extrinsic's data, its calls and events with args
 Display call's data, and its events.
 - searchable by id
 
-The page will contain the following data:
-- id
-- name
-- timestamp
-- success
-- metadata docs
-- args (json)
-- spec version
-- origin
-- parent call (link) if possible
-- extrinsic id (link)
-- block number (link)
-
 #### Event detail
 Display event's data
 - searchable by name and id
@@ -199,20 +186,20 @@ While it may seem to be already working explorer it has only basic features and 
 
 Even though we have the already working application there are still many things missing. Some of them prevent the users to use Calamar fully as the main explorer. We need to first assure the correct core functionality, display all the meaningful data which are retrievable without further complex processing, improve design and UX and integrate more into the Polkadot ecosystem.
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide inline documentation of the code where necessary, technical description how to run the own instance of Calamar and tutorials how to use the application from the user perspective. |
-| 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
-| 0d. | Docker | We will provide a Dockerfile(s) for testing and running own Calamar instance. |
-| 0e. | Article | We will publish an article that explains what was done as part of the grant |
-| 1. | Fixes, polishing | Fix things which block the app's real usage (search results are not shareable due to missing info about the chain in the url). Add missing data in items (extrinsic args, ...). Add useful information to the website (footer with team logos, contact information, ...) |
-| 2. | Responsivness | Improve overall responsivness for mobile devices especially of item tables and extrinsics/event args |
-| 3. | Extrinsics/event args displaying improvements | Improve the rendering of the extrinsic/event args. Add view options: raw/json, human readable |
-| 4. | Items count | Current implementation doens't show the total number of searched items. We would like to retrieve the items count and display it properly |
-| 5. | Extrinsic/event fulltext search by name | Add ability to search extrinsics and events by their name in fulltext manner |
-| 6. | Account address parsing in events args | Detect account address in event args and link it to the account detail (chain detected automatically) |
-| 7. | Polkadot.js integration | Integrate links to the Calamar Explorer into Polkadot.js app |
+| Number | Deliverable | Specification                                                                                                                                                                                                                                                             |
+| -----: | ----------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0a. | License | Apache 2.0                                                                                                                                                                                                                                                                |
+| 0b. | Documentation | We will provide inline documentation of the code where necessary, technical description how to run the own instance of Calamar and tutorials how to use the application from the user perspective.                                                                        |
+| 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality.                                                                                                                                                                                                               |
+| 0d. | Docker | We will provide a Dockerfile(s) for testing and running own Calamar instance.                                                                                                                                                                                             |
+| 0e. | Article | We will publish an article that explains what was done as part of the grant                                                                                                                                                                                               |
+| 1. | Fixes, polishing | Fix things which block the app's real usage (search results are not shareable due to missing info about the chain in the url). Add missing data in items (extrinsic args, ...). Add calls tabs and pages. Add events pages. Add useful information to the website (footer with team logos, contact information, ...) |
+| 2. | Responsivness | Improve overall responsivness for mobile devices especially of item tables and extrinsics/event args                                                                                                                                                                      |
+| 3. | Extrinsics/event args displaying improvements | Improve the rendering of the extrinsic/event args. Add view options: raw/json, human readable                                                                                                                                                                             |
+| 4. | Items count | Current implementation doens't show the total number of searched items. We would like to retrieve the items count and display it properly                                                                                                                                 |
+| 5. | Extrinsic/event fulltext search by name | Add ability to search extrinsics and events by their name in fulltext manner                                                                                                                                                                                              |
+| 6. | Account address parsing in events args | Detect account address in event args and link it to the account detail (chain detected automatically)                                                                                                                                                                     |
+| 7. | Polkadot.js integration | Integrate links to the Calamar Explorer into Polkadot.js app                                                                                                                                                                                                              |
 
 ### Milestone 2 - Account detail & Cross-chain transfers
 

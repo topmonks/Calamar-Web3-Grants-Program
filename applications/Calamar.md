@@ -43,12 +43,33 @@ Search where you don't have to know which chain the searched item belongs to. Yo
 - core functionality of the explorer
 
 #### Block detail
-Display block's data and its extrinsics
-- searchable by hash, height
+Display block's data and its extrinsics, transfers, calls and events
+- searchable by hash and height
 
 #### Extrinsic detail
-Display extrinsic's data and its events with args
-- searchable by hash
+Display extrinsic's data, its calls and events with args 
+- searchable by hash, name and arguments
+
+#### Call detail
+Display call's data, and its events.
+- searchable by id
+
+The page will contain the following data:
+- id
+- name
+- timestamp
+- success
+- metadata docs
+- args (json)
+- spec version
+- origin
+- parent call (link) if possible
+- extrinsic id (link)
+- block number (link)
+
+#### Event detail
+Display event's data
+- searchable by name and id
 
 #### Search extrinsics and events by name
 Display list of matching extrinsics and events by name
@@ -63,7 +84,7 @@ As we are gathering feedback, one of the most important features for the users s
   - account's name if set
   - owned assets and their statuses from all listed chains, including dollar values and graphs for visualization.
   - list all chain-specific addresses
-  - list all related transfers, cross-chain transfers and other extrinsics
+  - list all related transfers, cross-chain messages, calls and all extrinsics table
 
 ![Account page](https://res.cloudinary.com/topmonks/image/upload/v1661767600/calamar/account.png)
 

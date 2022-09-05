@@ -10,7 +10,7 @@ This application is a response to a [Multi-chain Block Explorer](https://github.
 
 ### Overview
 
-Calamar is a block explorer for Polkadot and Kusama relay chains and their parachains, that uses Subsquid API for data fetching.
+Calamar is a block explorer for Polkadot and Kusama relay chains and their chains, that uses Subsquid API for data fetching.
 
 The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks company's Blockchain Studio has gathered feedback from friendly projects such as HydraDx and KodaDot among others.
 We have applied for and won the bounty from Subsquid in the Polkadot Hackaton: North America edition, that requested developing a block explorer. Our submission: https://devpost.com/software/calamar
@@ -33,12 +33,12 @@ Calamar explorer will allow users to search and display various items and statis
 The plan is to have at least these features implemented:
 
 #### Homepage
-Homepage with google-like searchbox and with links to [parachain dashboards](#parachain-dashboards)
+Homepage with google-like searchbox and with links to [chain dashboards](#chain-dashboards)
 
 ![Home page](https://res.cloudinary.com/topmonks/image/upload/v1661767637/calamar/homepage.png)
 
 #### Universal search
-Search where you don't have to know which parachain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which parachain it is. This is going to be an addition to the ability to restrict search to a specific parachain.
+Search where you don't have to know which chain the searched item belongs to. You just put the hash into the search box and the explorer will take care of the determining on which chain it is. This is going to be an addition to the ability to restrict search to a specific chain.
 
 - core functionality of the explorer
 
@@ -190,7 +190,7 @@ Even though we have the already working application there are still many things 
 | 3. | Extrinsics/event args displaying improvements | Improve the rendering of the extrinsic/event args. Add view options: raw/json, human readable |
 | 4. | Items count | Current implementation doens't show the total number of searched items. We would like to retrieve the items count and display it properly |
 | 5. | Extrinsic/event fulltext search by name | Add ability to search extrinsics and events by their name in fulltext manner |
-| 6. | Account address parsing in events args | Detect account address in event args and link it to the account detail (parachain detected automatically) |
+| 6. | Account address parsing in events args | Detect account address in event args and link it to the account detail (chain detected automatically) |
 | 7. | Polkadot.js integration | Integrate links to the Calamar Explorer into Polkadot.js app |
 
 ### Milestone 2 - Account detail & Cross-chain transfers
@@ -209,9 +209,9 @@ Here we want to implement the most requested features, the [account detail overv
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
 | 1. | Account detail | Improve account detail page with cross-chain information |
-| 2. | XCM transfers and teleports | Detect cross-chain transfers and display relevant information of involved parachains and accounts |
+| 2. | XCM transfers and teleports | Detect cross-chain transfers and display relevant information of involved chains and accounts |
 
-### Milestone 3 - Universal search & Parachain dashboards
+### Milestone 3 - Universal search & Chain dashboards
 
 - **Estimated duration:** 3 weeks
 - **FTE:** 1
@@ -219,7 +219,7 @@ Here we want to implement the most requested features, the [account detail overv
 
 There are two things which can highly improve the usefulness of the explorer.
 
-The fist is the [universal search](#universal-search) and the next big thing is [dashboards for parachains](#parachain-dashboards).
+The fist is the [universal search](#universal-search) and the next big thing is [dashboards for chains](#chain-dashboards).
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -228,8 +228,8 @@ The fist is the [universal search](#universal-search) and the next big thing is 
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
-| 1. | Universal search | Search items through all the parachains without the knowledge where it belongs |
-| 2. | Parachain dashboard | Create dashboard with stats, charts and listings for each parachain |
+| 1. | Universal search | Search items through all the chains without the knowledge where it belongs |
+| 2. | Chain dashboard | Create dashboard with stats, charts and listings for each chain |
 
 ## Future Plans
 

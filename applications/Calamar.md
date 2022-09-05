@@ -10,7 +10,7 @@ This application is a response to a [Multi-chain Block Explorer](https://github.
 
 ### Overview
 
-Calamar is a block explorer for Polkadot and Kusama relay chains and their chains, that uses Subsquid API for data fetching.
+Calamar is a block explorer for Polkadot and Kusama relay chains and their parachains, that uses Subsquid API for data fetching.
 
 The idea for another explorer has emerged during the dotsama events in Amsterdam and Prague. The team of TopMonks company's Blockchain Studio has gathered feedback from friendly projects such as HydraDx and KodaDot among others.
 We have applied for and won the bounty from Subsquid in the Polkadot Hackaton: North America edition, that requested developing a block explorer. Our submission: https://devpost.com/software/calamar

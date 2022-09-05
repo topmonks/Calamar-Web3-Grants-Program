@@ -22,7 +22,7 @@ It is available here:
 and we manage the code here:
 [https://github.com/topmonks/calamar](https://github.com/topmonks/calamar)
 
-Based on the positive feedback we would like to push the project further and bring more valuable features for the users, closely cooperating with the [Subsquid](https://subsquid.io) team and gathering an on-going feedback from the users.
+Based on the positive feedback we would like to push the project further and bring more valuable features for the users, closely cooperating with the [Subsquid](https://subsquid.io) team and gathering an ongoing feedback from the users.
 
 While developing Calamar, we focus on UI and UX friendliness so that users enjoy dotsama chains exploring, as well as relevance of displayed data.
 
@@ -33,7 +33,7 @@ Calamar explorer will allow users to search and display various items and statis
 The plan is to have at least these features implemented:
 
 #### Homepage
-Homepage with google-like searchbox and with links to [chain dashboards](#chain-dashboards).
+Homepage with google-like search box and with links to [chain dashboards](#chain-dashboards).
 
 ![Home page](https://res.cloudinary.com/topmonks/image/upload/v1661767637/calamar/homepage.png)
 
@@ -57,8 +57,8 @@ Display event's data
 - searchable by id
 
 #### Search extrinsics and events by name
-Display list of matching extrinsics and events by name.
-- fulltext search - doesn't require exact name, substring is sufficient
+Display a list of matching extrinsics and events by name.
+- full-text search - doesn't require exact name, substring is sufficient
 
 #### Account detail
 
@@ -131,7 +131,7 @@ Richard Jedlička has several years of expertise in web applications full-stack 
 
 Radek Jakl invented the design for Calamar. He has many years of experience in graphics and UI/UX design.
 
-Jan Lopusek co-founded the startup studio for TopMonks software house, he is experienced project manager and business developer
+Jan Lopusek co-founded the startup studio for TopMonks software house. He is experienced project manager and business developer
 
 ### Team Code Repos
 
@@ -182,17 +182,17 @@ While it may seem to be already working explorer it has only basic features and 
 - **FTE:** 1
 - **Costs:** $10,000
 
-Even though we have the already working application there are still many things missing. Some of them prevent the users to use Calamar fully as the main explorer. We need to first assure the correct core functionality, display all the meaningful data which are retrievable without further complex processing, improve design and UX and integrate more into the Polkadot ecosystem.
+Even though we have the already working application, there are still many things missing. Some of them prevent the users from using Calamar fully as the main explorer. We need to first assure the correct core functionality, display all the meaningful data which are retrievable without further complex processing, improve design and UX and integrate more into the Polkadot ecosystem.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide inline documentation of the code where necessary, technical description how to run the own instance of Calamar and tutorials how to use the application from the user perspective. |
+| 0b. | Documentation | We will provide inline documentation of the code where necessary, technical description of how to run the own instance of Calamar and tutorials how to use the application from the user perspective. |
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | We will provide a Dockerfile(s) for testing and running own Calamar instance. |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
-| 1. | Fixes, polishing | Fix things which block the app's real usage (search results are not shareable due to missing info about the chain in the url). Add missing data in items (extrinsic args, related items listing, ...). Add call and event detail pages. Add useful information to the website (footer with team logos, contact information, ...) |
-| 2. | Responsivness | Improve overall responsivness for mobile devices especially of item tables and extrinsics/event args |
+| 1. | Fixes, polishing | Fix things which block the app's real usage (search results are not shareable due to missing info about the chain in the URL). Add missing data in items (extrinsic args, related items listing, ...). Add call and event detail pages. Add useful information to the website (footer with team logos, contact information, ...) |
+| 2. | Responsiveness | Improve overall responsiveness for mobile devices especially of item tables and extrinsics/event args |
 | 3. | Extrinsics/event args displaying improvements | Improve the rendering of the extrinsic/event args. Add view options: raw/json, human readable |
 | 4. | Items count | Current implementation doens't show the total number of searched items. We would like to retrieve the items count and display it properly |
 | 5. | Extrinsic/event fulltext search by name | Add ability to search extrinsics and events by their name in fulltext manner |
@@ -210,7 +210,7 @@ Here we want to implement the most requested features, the [account detail overv
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide inline documentation of the code where necessary  and tutorials how to use new features. |
+| 0b. | Documentation | We will provide inline documentation of the code where necessary  and tutorials on how to use new features. |
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
@@ -230,7 +230,7 @@ The fist is the [universal search](#universal-search) and the next big thing is 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide inline documentation of the code where necessary and tutorials how to use new features. |
+| 0b. | Documentation | We will provide inline documentation of the code where necessary and tutorials on how to use new features. |
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | *N/A - will be provided by the first milestone.* |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |

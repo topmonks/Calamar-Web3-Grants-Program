@@ -191,8 +191,8 @@ Even though we have the already working application, there are still many things
 | 0c. | Testing Guide | We will provide end-to-end tests covering UI functionality. |
 | 0d. | Docker | We will provide a Dockerfile(s) for testing and running own Calamar instance. |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant. |
-| 1. | Fix usage blockers | Fix things which block the app's real usage: <ul><li>search results are not shareable due to missing info about the chain in the URL</li><li>extrinsic args are missing</li></ul> |
-| 2. | Add related items listings | Add missing related items listing to detail pages:<ul><li>block transfers, call and events</li><li>extrinsic calls</li></ul>
+| 1. | Fix usage blockers | Fix things which block the app's real usage <ul><li>search results are not shareable due to missing info about the chain in the URL</li><li>extrinsic's args are missing</li></ul> |
+| 2. | Add related items listings | Add missing related items listing to detail pages<ul><li>block's transfers, call and events</li><li>extrinsic's calls</li></ul>
 | 3. | Add call detail page | See [Call detail](#call-detail). |
 | 4. | Add event detail page | See [Event detail](#event-detail). |
 | 5. | Responsiveness | Improve overall responsiveness for mobile devices especially of item tables and extrinsics/event args. |
